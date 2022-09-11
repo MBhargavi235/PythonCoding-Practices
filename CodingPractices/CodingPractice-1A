@@ -3,3 +3,38 @@ Question 1: Hello World
 word=input()
 print("Hello "+word)
 
+Question 2:Print the Input
+
+a=input()
+print(a)
+
+Question 3:Print the Input2
+
+b=input()
+print("Given input:"+" " +b)
+
+Question 4 :Second Line
+
+a=input()
+b=input()
+print(b)
+
+Question 5 :Print in Reverse Order
+
+a=input()
+b=input()
+print(b)
+print(a)
+
+Question 6: String Repetition 
+
+a=input()
+print((a + " ")*3)
+
+Question 7:Reverse Digits
+
+a=input()
+first_digit=a[0]
+second_digit=a[1]
+reversed_number=second_digit+first_digit
+print(reversed_number)
