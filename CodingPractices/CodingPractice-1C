@@ -1,0 +1,66 @@
+Question 1: Basic Arthimetic
+
+a=int(input())
+b=int(input())
+print(a+b)
+print(a-b)
+print(a*b)
+
+Question 2:Area of Rectangle
+
+a=int(input())
+b=int(input())
+Area_of_rectangle=a*b
+print(Area_of_rectangle)
+
+Question 3: Perimeter of Rectangle
+
+a=int(input())
+b=int(input())
+perimeter_of_rectangle=2*(a+b)
+print(perimeter_of_rectangle)
+
+Question 4 :Kilometers to Meters
+
+a=float(input())
+b=int(a*1000)
+print(b)
+
+Question 5 : Length of the String
+
+a=input()
+print(len(a))
+
+Question 6: First Three Characters
+
+a=input()
+b=a[0:3]
+print(b)
+
+Question 7:Compare First Three Characters
+
+a=input()
+b=input()
+c=a[0:3]
+d=b[0:3]
+print(c == d)
+
+Question 8:Greater Than 5
+
+a=input()
+b=input()
+positive=(int(a)>0 and int(b)>0)
+greater=int(a)>5 or int(b)>5         
+print(positive and greater)     
+
+Question 9:Comparing Digits
+
+a=input()
+c=a[0]
+d=a[1]
+c=int(c)
+d=int(d)
+e=c>d
+a=int(a)>25
+result= a and e
+print(result)
