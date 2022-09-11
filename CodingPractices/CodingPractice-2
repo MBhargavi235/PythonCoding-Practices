@@ -1,0 +1,44 @@
+Question 1: Skipping Letters
+
+a=input()
+b=int(input())
+c=len(a)
+x=a[0:b]
+y=a[(b+1):c]
+print(x+y)
+
+Question 2:Validate Password
+
+a=input()
+b=len(a)
+if(7<=b):
+    print("True")
+else:
+    print("False")
+
+Question 3: Between 25 and 75
+
+a=input()
+a=int(a)
+b=a>25 and a<75
+if b:
+    print("True")
+else:
+    print("False")
+
+Question 4 :Masking
+
+a=input()
+length=len(a)
+first_one_letter=a[0:1]
+last_one_letter=(a[length - 1:])
+stars=( length - ( len (first_one_letter) + len (last_one_letter) ) )
+print(str(first_one_letter)+str(stars*"*")+str(last_one_letter))
+
+Question 5 : Exam Result
+
+a=int(input())
+if (a>50):
+    print("PASS")
+else:
+    print("FAIL")
