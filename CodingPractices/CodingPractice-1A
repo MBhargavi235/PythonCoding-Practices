@@ -1,0 +1,5 @@
+Question 1: Hello World
+
+word=input()
+print("Hello "+word)
+
