@@ -1,0 +1,76 @@
+
+Question 1:Masking-2
+
+input1:mesaage
+output:me***ge
+input2: 12345
+output:12*45
+
+Solution:
+
+a=input()
+length=len(a)
+first_two_letter=a[0:2]
+last_two_letters=(a[length - 2:])
+stars=( length - ( len (first_two_letter) + len (last_two_letters)))
+print(str(first_two_letter)+str(stars*"*")+str(last_two_letters))
+
+Question 2: Eligibility Criteria - 1
+
+Given a student has scored M_ marksin Maths, P marks in
+Physics and C marks in Chemistry. Write a program to check if a
+student is eligible for admission in a professional course. If any one
+of the below conditions is satisfied, then the student is eligible.
+
+1) M>= 70 and P >= 60 and C >= 60
+
+2)M+P+C >= 180
+
+Input
+
+The first line is aninteger M ,thesecondlineis aninteger P ,
+and the third line is an integer C.
+
+Output
+
+The output should be a single line containing True _ if it satisfies
+the given conditions, False in all other cases.
+
+Input
+
+The first line is aninteger M ,thesecondlineis aninteger P ,
+and the third line is an integer C ..
+
+Explanation
+
+Given M = @, P = 100, C = 100, the scores ¢
+
+M+P+C >= 180 (@ + 100 + 10@ >=180).
+
+So, the output should be True .
+
+Sample Input 1
+9
+100
+100
+Sample Output 1
+True
+
+Sample Input 2
+30
+40
+65
+Sample Output 2
+False
+
+Solution:
+
+M=int(input())
+P=int(input())
+C=int(input())
+if (M>=70 and P>=60 and C>=60) or ((M+P+C)>=180):
+    print("True")
+else:
+    print("False")
+    
+ 
