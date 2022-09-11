@@ -1,0 +1,48 @@
+Question 1: Sum of Two Numbers
+
+a=int(input())
+b=int(input())
+print(a+b)
+
+Question 2:Indexing
+
+word=input()
+index=int(input())
+print(word[index])
+
+Question 3:Last Character
+
+a=input()
+b=a[-1]
+print(b)
+
+
+Question 4 :Half String
+
+a=input()
+a1=a[:len(a)//2]
+a2=a[len(a)//2:]
+print(a1)
+
+Question 5 : String Repetition-2
+
+a=input()
+n=input()
+n=int(n)
+print(str(a*n))
+
+Question 6: String Repetition-3
+
+a=input()
+b=int(input())
+c=a[-3:(len(a))]
+print(c*b)
+
+Question 7:Sum of Digits
+
+ a=input()
+one=int(a[0])
+two=int(a[1])
+three=int(a[2])
+sum=one+two+three
+print(sum)
